@@ -1,13 +1,16 @@
 *{
     margin: 0;
     font-family: 'Work Sans';
+    align-items: center;
 }
 
 /* Header Section */
 .banner{
+    background-position: center;
     background: url('../images/banner/banner3.png');
+    background-size: cover; 
+    height: 1000px;
     background-repeat: no-repeat;
-    height: 800px;
     text-align: right;
     padding-right: 200px;
 }
@@ -17,7 +20,7 @@
     font-size: 60px;
     color: white;
     padding-top: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .banner-description{
@@ -28,7 +31,7 @@
 .banner-btn{
     font-size: 18px;
     font-weight: 600;
-    color: blue;
+    color: #005FAC;
     padding: 15px;
     border-radius: 5px;
     background: white;
@@ -45,14 +48,15 @@
 
 .upper-body{
     display: flex;
+    justify-content: center;
 }
 
 .upper-image-part{
-    padding: 130px 80px 130px 150px;
+    padding: 130px 80px 130px 100px;
 }
 
 .upper-text-part{
-    padding-top: 350px;
+    padding-top: 50px;
     padding-left: 20px;
     text-align: left;
 }
@@ -101,7 +105,7 @@ li{
 .middle-body-image-part{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 100px;   
 }
 
 .image-title{
@@ -117,9 +121,11 @@ li{
 .lower-body{
     background-image: url('../images/gradient1.png'),url('../images/watch.png');
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     margin-bottom: 100px;
-    margin-left: 235px;  
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 350px;
 }
 
 .lower-body-title{
@@ -130,15 +136,15 @@ li{
 }
 
 .lower-div{
-    padding-left: 65px;
-    padding-top: 60px;
+    padding-left: 6%;
+    padding-top: 6%;
     padding-bottom: 60px;
 }
 
 .body-btn{
     font-size: 18px;
     font-weight: 600;
-    color: blue;
+    color: #005FAC;
     padding: 15px 25px;
     border-radius: 5px;
     background: white;
