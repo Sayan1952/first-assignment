@@ -8,7 +8,7 @@
 .banner{
     background-position: center;
     background: url('../images/banner/banner3.png');
-    background-size: cover; 
+    background-size: 100% 100%; 
     height: 1000px;
     background-repeat: no-repeat;
     text-align: right;
@@ -42,6 +42,7 @@
 .banner-btn:hover{
     background-color: #008CBA;
     color: white;
+    cursor: pointer;
 }
 
 /* Nav bar */
@@ -186,6 +187,7 @@ li{
 .body-btn:hover{
     background-color: #008CBA;
     color: white;
+    cursor: pointer;
 }
 
 /* footer */
@@ -226,6 +228,7 @@ li{
     font-size: 25px;
     font-weight: 600px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .email-box{
