@@ -44,6 +44,37 @@
     color: white;
 }
 
+/* Nav bar */
+
+nav{
+    float: right;
+    padding-top: 5%;
+}
+
+.nav-ul{
+    list-style: none;
+    
+}
+.nav-li{
+    display: inline;
+    
+}
+.nav-li-a{
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.nav-li-a:hover{
+    background-color: aliceblue;
+    color: #005FAC;
+}
+
 /* Main Body */
 
 .upper-body{
@@ -162,6 +193,7 @@ li{
 .footer-part{
     display: flex;
     justify-content: space-evenly;
+    align-items: baseline;
     color: white;
     background-color: black ;
     padding-top: 150px;
